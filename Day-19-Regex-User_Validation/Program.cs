@@ -5,13 +5,14 @@ Console.WriteLine("----- Regex User Validation -----\n");
 
 RegexOps pattern = new RegexOps();
 
-Console.Write("Enter the First_Last Name of the User :- ");
-string username=Console.ReadLine();
-if(pattern.ValidateUserName(username))
+Console.Write("Enter Email_Id of the User :- ");
+string User_MailID = Console.ReadLine();
+if(pattern.ValidateUserName(User_MailID))
 {
-    Console.WriteLine("\n>> UserName format is Valid....");
+    Console.WriteLine("\n>> User Mail_ID format is Valid....");
 }
 else
 {
-    Console.WriteLine("\n>> UserName format is Invalid....");
+    Console.WriteLine("\n>> User Mail_ID format is Invalid....");
 }
+
