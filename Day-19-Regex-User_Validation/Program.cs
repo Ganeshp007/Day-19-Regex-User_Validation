@@ -5,7 +5,7 @@ Console.WriteLine("----- Regex User Validation -----\n");
 
 RegexOps pattern = new RegexOps();
 
-Console.Write("Enter the First Name of the User :- ");
+Console.Write("Enter the First_Last Name of the User :- ");
 string username=Console.ReadLine();
 if(pattern.ValidateUserName(username))
 {
